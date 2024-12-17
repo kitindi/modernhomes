@@ -95,7 +95,7 @@ const Projects = () => {
                   ))}
                 </div>
                 <div className="h-full w-full flex flex-col   py-5 md:py-20 md:pr-20">
-                  <h2 className="text-3xl font-semibold text-[#0f4189]">{project.title}</h2>
+                  <h2 className="text-2xl md:text-3xl font-semibold text-[#0f4189]">{project.title}</h2>
                   <p className="py-2 my-2 text-xl text-slate-500 font-bold ">From Tsh. {project.budget}</p>
                   <p className="text-[#666a7b]">{project.description}</p>
                   <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-8 mt-12">
