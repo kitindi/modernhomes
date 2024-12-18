@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="scroll-smooth w-full overflow-hidden  md:pt-32 lg:px-32 px-5 py-32 min-h-[60vh] bg-[#0f4189]">
+    <div className="scroll-smooth w-full overflow-hidden  md:pt-32 lg:px-24 px-5 py-24 min-h-[60vh] bg-[#0f4189]">
       <div className="container mx-auto max-w-8xl flex flex-col md:flex-row items-start justify-between gap-10 ">
         <div className="w-full px-5">
           <a href="#header" className="flex items-center gap-2">
