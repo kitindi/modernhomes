@@ -14,8 +14,10 @@ import customer_1 from "./image-101.png";
 import customer_2 from "./image-111.png";
 import customer_3 from "./image-112.png";
 import customer_4 from "./image-1.png";
+import header_image from "./header_img.jpg";
 
 export const customers = [customer_1, customer_2, customer_3, customer_4];
+export const headerImage = header_image;
 
 export const projectsData = [
   {
