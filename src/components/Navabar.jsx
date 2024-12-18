@@ -89,7 +89,7 @@ const Navabar = () => {
           <a href="#projects" className="inline-block py-2 text-[#0f4189]" onClick={() => handleMobileMenu()}>
             Projects
           </a>
-          <a href="#testimonial" className="inline-block py-2 text-[#0f4189]" onClick={() => handleMobileMenu()}>
+          <a href="#testimonials" className="inline-block py-2 text-[#0f4189]" onClick={() => handleMobileMenu()}>
             Testimonial
           </a>
         </ul>
