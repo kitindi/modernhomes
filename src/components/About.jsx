@@ -4,7 +4,7 @@ import image1 from "../assets/image12.jpg";
 const About = () => {
   return (
     <div
-      className="scroll-smooth container mx-auto py-14 px-8 md:px-20 lg:px-32  flex flex-col items-center justify-center w-full overflow-hidden bg-[#f2f8ff] min-h-[700px]"
+      className="scroll-smooth  py-14 px-8 md:px-20 lg:px-32  flex flex-col items-center justify-center w-full overflow-hidden bg-[#f2f8ff] min-h-[700px]"
       id="about"
     >
       <h1 className="text-4xl font-bold text-center text-[#0f4189]">
