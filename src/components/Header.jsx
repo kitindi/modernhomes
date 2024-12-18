@@ -9,8 +9,8 @@ const Header = () => {
     >
       {" "}
       <Navabar />
-      <div className="container text-white mx-auto  px-6 md:px-20 lg:px-32">
-        <h2 className="text-5xl w-full  md:text-6xl font-bold md:max-w-2xl">Explore modern homes that uplifts your living</h2>
+      <div className="container text-white mx-auto  px-6 md:px-20 lg:px-32 py-20">
+        <h2 className="text-5xl w-full  md:text-6xl font-bold md:max-w-2xl">Turn your dream into a modern home that uplifts your living.</h2>
         <div className="space-x-3 md:space-x-6 mt-16">
           <a href="#projects" className="border-2 border-white px-10 py-3 rounded-full text-md">
             Projects
