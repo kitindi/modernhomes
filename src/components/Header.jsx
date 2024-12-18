@@ -1,10 +1,11 @@
 import Navabar from "./Navabar";
+import header_image from "../assets/header_img.jpg";
 
 const Header = () => {
   return (
     <div
       className="min-h-screen bg-cover bg-center  flex items-center w-full overflow-hidden container bg-blend-multiply bg-gray-400"
-      style={{ backgroundImage: "url('/header_img.jpg')" }}
+      style={{ backgroundImage: "url(`${header_image }`)" }}
       id="header"
     >
       {" "}
