@@ -27,7 +27,7 @@ const Footer = () => {
           <h2 className="text-xl text-[#ffffff] font-semibold mb-5">Company</h2>
           <ul>
             <li className="text-md text-[#dfe6f1]">
-              <a href="$about">About</a>
+              <a href="#about">About</a>
             </li>
             <li className="text-md text-[#dfe6f1]">
               <a href="#contact">Contact</a>
