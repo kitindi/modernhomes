@@ -36,7 +36,7 @@ const Projects = () => {
   };
 
   return (
-    <div className="container w-full max-auto py-4 pt-20 px-6 md:px-20 lg:px-32 overflow-hidden bg-[#ffffff]" id="projects">
+    <div className="scroll-smooth container w-full max-auto py-4 pt-20 px-6 md:px-20 lg:px-32 overflow-hidden bg-[#ffffff]" id="projects">
       <h1 className="text-2xl sm:text-4xl font-bold text-center text-[#0f4189]">
         Projects <span className="font-bold ">Completed</span>
       </h1>

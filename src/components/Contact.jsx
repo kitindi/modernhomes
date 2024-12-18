@@ -30,7 +30,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="w-full overflow-hidden  md:py-32 lg:px-32 px-5 py-32 min-h-[70vh] bg-[#0f4189]" id="contact">
+    <div className="scroll-smooth w-full overflow-hidden  md:py-32 lg:px-32 px-5 py-32 min-h-[70vh] bg-[#0f4189]" id="contact">
       <div className="container mx-auto max-w-8xl grid grid-cols-1 md:grid-cols-2 gap-10 ">
         <div className="w-full px-5 md:py-20">
           <h2 className="text-3xl md:text-5xl font-bold text-[#ffffff] md:max-w-md mb-5">Explore how we can work for you</h2>

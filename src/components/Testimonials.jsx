@@ -3,7 +3,7 @@ import { customers } from "../assets/assets";
 
 const Testimonials = () => {
   return (
-    <div className="w-full bg-[#f2f8ff] py-20 min-h-[100vh]" id="testimonials">
+    <div className="scroll-smooth w-full bg-[#f2f8ff] py-20 min-h-[100vh]" id="testimonials">
       <div className="container mx-auto max-w-6xl">
         <h2 className="text-2xl sm:text-4xl text-[#0f4189] text-center font-bold">Don't just take our own words for it.</h2>
         <h2 className="text-2xl sm:text-4xl text-[#0f4189] text-center font-bold">Trust our customers</h2>
