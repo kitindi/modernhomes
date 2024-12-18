@@ -33,7 +33,7 @@ const Footer = () => {
               <a href="#contact">Contact</a>
             </li>
             <li className="text-md text-[#dfe6f1]">
-              <a href="#Testimonials">Testimonials</a>
+              <a href="#testimonials">Testimonials</a>
             </li>
             <li className="text-md text-[#dfe6f1]">Terms and Conditions</li>
             <li className="text-md text-[#dfe6f1]">Terms of Service</li>
