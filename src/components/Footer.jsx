@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="scroll-smooth w-full overflow-hidden  md:pt-32 lg:px-32 px-5 py-32 min-h-[60vh] bg-[#0f4189]">
       <div className="container mx-auto max-w-8xl flex flex-col md:flex-row items-start justify-between gap-10 ">
         <div className="w-full px-5">
-          <a href="" className="flex items-center gap-2">
+          <a href="#header" className="flex items-center gap-2">
             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#ff793f" viewBox="0 0 256 256">
               <path d="M240,184h-8V57.9l9.67-2.08a8,8,0,1,0-3.35-15.64l-224,48A8,8,0,0,0,16,104a8.16,8.16,0,0,0,1.69-.18L24,102.47V184H16a8,8,0,0,0,0,16H240a8,8,0,0,0,0-16ZM40,99,216,61.33V184H192V128a8,8,0,0,0-8-8H72a8,8,0,0,0-8,8v56H40Zm136,53H80V136h96ZM80,168h96v16H80Z"></path>
             </svg>
@@ -26,9 +26,15 @@ const Footer = () => {
         <div className="w-full px-10">
           <h2 className="text-xl text-[#ffffff] font-semibold mb-5">Company</h2>
           <ul>
-            <li className="text-md text-[#dfe6f1]">About</li>
-            <li className="text-md text-[#dfe6f1]">Contact</li>
-            <li className="text-md text-[#dfe6f1]">Testimonials</li>
+            <li className="text-md text-[#dfe6f1]">
+              <a href="$about">About</a>
+            </li>
+            <li className="text-md text-[#dfe6f1]">
+              <a href="#contact">Contact</a>
+            </li>
+            <li className="text-md text-[#dfe6f1]">
+              <a href="#Testimonials">Testimonials</a>
+            </li>
             <li className="text-md text-[#dfe6f1]">Terms and Conditions</li>
             <li className="text-md text-[#dfe6f1]">Terms of Service</li>
             <li className="text-md text-[#dfe6f1]">Refund policy</li>
